@@ -3,7 +3,6 @@ import * as bodyParser from "body-parser";
 import ErrorMiddleware from "./middlewares/Error.middleware";
 
 
-
 class App {
     public app: express.Application;
 	public port: number;
@@ -35,7 +34,6 @@ class App {
 			console.log(`App listening on the port ${this.port}`);
 		});
 	}
-
 
 }
 
