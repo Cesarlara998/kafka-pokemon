@@ -1,14 +1,16 @@
 import Alphanumeric from "./Alphanumeric";
+import Pokemon from "./Pokemon";
+import Result from "./Result";
 
 
 export default class Battle {
 
-    private namePokemonBlue: {};
-    private namePokemonRed: Alphanumeric;
-    private result: Alphanumeric;
+    private namePokemonBlue: Pokemon;
+    private namePokemonRed: Pokemon;
+    private result: Result;
     
 
-    constructor(namePokemonBlue: Alphanumeric, namePokemonRed: Alphanumeric, result: Alphanumeric){
+    constructor(namePokemonBlue: Pokemon, namePokemonRed: Pokemon, result: Result){
                 this.namePokemonBlue = namePokemonBlue;
                 this.namePokemonRed = namePokemonRed;
                 this.result = result;
