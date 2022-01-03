@@ -2,7 +2,7 @@ import * as config from "./config";
 
 export default class BrokerConnection {
     private amqp = require('amqplib');
-    public URL = 'amqp://' + config.BROKER_USER + ':' +config.BROKER_PASSWORD + '@' + config.BROKER_HOST + ':' + config.BROKER_PORT;
+    public URL = config.BROKER_HOST
     public connection;
     public channel;
     public callbacks;

@@ -7,9 +7,9 @@ export default class PokemonRouter {
     private battleController: BattleController;
 
     constructor(){
-        this.battleController = new BattleController();
-        this.battleController.recibeMessage()
-        this.router.get(`${this.path}/`, this.battleController.resultados);
+        // this.battleController = new BattleController();
+        // this.battleController.recibeMessage()
+        // this.router.get(`${this.path}/`, this.battleController.resultados);
         // this.router.get('',this.pokemonController.)
     }
-}
+}{ }
